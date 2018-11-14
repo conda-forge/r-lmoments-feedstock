@@ -17,15 +17,12 @@ source:
 build:
   noarch: generic
   number: 1001
-  skip: true  # [win32]
-
   rpaths:
     - lib/R/lib/
     - lib/
 requirements:
   build:
     - r-base
-
   run:
     - r-base
 
