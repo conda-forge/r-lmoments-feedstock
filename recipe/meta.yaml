@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 2
+  number: 3
   rpaths:
     - lib/R/lib/
     - lib/
@@ -31,6 +31,7 @@ requirements:
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
   host:
+    - libblas
     - r-base
     - r-rcpp
     - r-rcpparmadillo
@@ -47,7 +48,7 @@ test:
 
 about:
   home: http://users.jyu.fi/~jutakarv/
-  license: GPL-2
+  license: GPL-2.0-only
   summary: Contains functions to estimate L-moments and trimmed L-moments from the data. Also
     contains functions to estimate the parameters of the normal polynomial quantile
     mixture and the Cauchy polynomial quantile mixture from L-moments and trimmed L-moments.
