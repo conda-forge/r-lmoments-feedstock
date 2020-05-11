@@ -3,7 +3,7 @@ About r-lmoments
 
 Home: http://users.jyu.fi/~jutakarv/
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: BSD 3-Clause
 
